@@ -97,7 +97,7 @@
 	        var _this = _possibleConstructorReturn(this, (Console.__proto__ || Object.getPrototypeOf(Console)).call(this, props));
 	
 	        var l = [];
-	        l[0] = '../Sounds/laser3.mp3';
+	        l[0] = '../Sounds/laser3.wav';
 	        l[1] = '../Sounds/laser4.wav';
 	
 	        _this.finishedLoading1 = _this.finishedLoading1.bind(_this);
