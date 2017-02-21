@@ -26567,12 +26567,13 @@
 	
 	var _SideBar2 = _interopRequireDefault(_SideBar);
 	
+	var _reactRouter = __webpack_require__(178);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var Index = _react2.default.createClass({
 	    displayName: 'Index',
 	    render: function render() {
-	        debugger;
 	        return _react2.default.createElement(
 	            'div',
 	            null,
@@ -26585,7 +26586,21 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'wrapper' },
-	                this.props.children
+	                _react2.default.createElement(
+	                    _reactRouter.Link,
+	                    { to: '/' },
+	                    'Home'
+	                ),
+	                _react2.default.createElement(
+	                    'span',
+	                    null,
+	                    this.props.location.pathname
+	                ),
+	                _react2.default.createElement(
+	                    'section',
+	                    null,
+	                    this.props.children
+	                )
 	            ),
 	            _react2.default.createElement(
 	                'footer',
