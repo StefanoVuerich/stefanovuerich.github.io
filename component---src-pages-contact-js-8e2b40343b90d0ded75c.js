@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"5ZoN":function(e,n,t){"use strict";var a=t("q1tI"),r=t.n(a);n.a=function(e){var n=e.children;return r.a.createElement("div",{className:"container"},n)}},"Cuy+":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a),c=t("5ZoN");n.default=function(){return r.a.createElement(c.a,null,r.a.createElement("br",null),r.a.createElement("h1",null,"Contact"),r.a.createElement("br",null))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-8e2b40343b90d0ded75c.js.map
